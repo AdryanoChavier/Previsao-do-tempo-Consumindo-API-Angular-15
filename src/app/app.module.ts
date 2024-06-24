@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { WeatherComponent } from './modules/wheater/pages/weather/weather.component';
+import { WeatherCardComponent } from './modules/wheater/components/weather-card/weather-card.component';
 
 
 
@@ -16,6 +17,7 @@ import { WeatherComponent } from './modules/wheater/pages/weather/weather.compon
   declarations: [
     AppComponent,
     WeatherComponent,
+    WeatherCardComponent,
 
   ],
 
